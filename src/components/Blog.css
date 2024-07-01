@@ -10,26 +10,47 @@ h1 {
 
 .content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .blog-posts {
-  width: 70%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .blog-posts {
+    width: 70%;
+  }
 }
 
 .blog-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
 }
 
 .blog-post {
-  width: calc(33.333% - 20px);
+  width: 100%;
   border: 1px solid #ddd;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .blog-post {
+    width: calc(33.333% - 20px);
+  }
 }
 
 .blog-post:hover {
@@ -69,14 +90,21 @@ h1 {
 }
 
 .search-sidebar {
-  width: 30%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .search-sidebar {
+    width: 30%;
+    margin-top: 0;
+  }
 }
 
 .search-bar input {
   width: 100%;
-  padding: 0px;
-  height: 40px;
-  margin-bottom: -10px;
+  padding: 10px;
+  margin-bottom: 10px;
   border: 2px solid #545050;
   border-radius: 4px;
 }
@@ -84,15 +112,15 @@ h1 {
 .categories {
   display: flex;
   flex-direction: column;
-  gap: 0px; /* Add some space between buttons */
+  gap: 10px;
   padding: 0%;
 }
 
 .categories button {
-  width: 30%; /* Button width */
+  width: 100%;
   padding: 13px;
   border: none;
-  background-color: #28a745; /* Green color */
+  background-color: #28a745;
   color: #fff;
   border-radius: 4px;
   cursor: pointer;
@@ -101,5 +129,5 @@ h1 {
 }
 
 .categories button:hover {
-  background-color: #218838; /* Darker green on hover */
+  background-color: #218838;
 }
