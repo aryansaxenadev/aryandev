@@ -41,7 +41,7 @@ const blogPosts = [
     id: 5,
     title: "Securing Your Web Applications: A Comprehensive Guide",
     category: "Web Development",
-    summary: "Explore the transformative power of CI/CD pipelines in software development, leveraging automation for faster releases, enhanced quality control, and seamless team collaboration.",
+    summary: "Discover crucial strategies, best practices, and practical tips to safeguard your web applications from various security threats, ensuring robust protection and peace of mind.",
     image: blog5
   },
   // Add more blog posts as needed
