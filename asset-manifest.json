@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aryandev/static/css/main.20545b12.css",
-    "main.js": "/aryandev/static/js/main.647bc5c1.js",
+    "main.js": "/aryandev/static/js/main.52cc3b1a.js",
     "static/media/project4.png": "/aryandev/static/media/project4.fb0425c2b5aa04c3a5a6.png",
     "static/media/openai.png": "/aryandev/static/media/openai.52ae834b49adfffdfb1a.png",
     "static/media/code.png": "/aryandev/static/media/code.afeddb222a9ecbcae143.png",
@@ -64,10 +64,10 @@
     "static/media/netlify.webp": "/aryandev/static/media/netlify.9d402dff1ba4f08feb91.webp",
     "index.html": "/aryandev/index.html",
     "main.20545b12.css.map": "/aryandev/static/css/main.20545b12.css.map",
-    "main.647bc5c1.js.map": "/aryandev/static/js/main.647bc5c1.js.map"
+    "main.52cc3b1a.js.map": "/aryandev/static/js/main.52cc3b1a.js.map"
   },
   "entrypoints": [
     "static/css/main.20545b12.css",
-    "static/js/main.647bc5c1.js"
+    "static/js/main.52cc3b1a.js"
   ]
 }
